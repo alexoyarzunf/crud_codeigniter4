@@ -1,0 +1,118 @@
+CRITICAL - 2022-11-02 21:33:31 --> Cannot call constructor
+in APPPATH\Controllers\Dashboard.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 21:36:27 --> Cannot call constructor
+in APPPATH\Controllers\Dashboard.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 21:42:07 --> Cannot call constructor
+in APPPATH\Controllers\Dashboard.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 21:42:08 --> Cannot call constructor
+in APPPATH\Controllers\Dashboard.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 21:42:47 --> Cannot call constructor
+in APPPATH\Controllers\Dashboard.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 21:42:48 --> Cannot call constructor
+in APPPATH\Controllers\Dashboard.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 21:43:01 --> Cannot call constructor
+in APPPATH\Controllers\Dashboard.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 21:43:35 --> Cannot call constructor
+in APPPATH\Controllers\Dashboard.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 21:44:25 --> Cannot call constructor
+in APPPATH\Controllers\Dashboard.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 21:44:26 --> Cannot call constructor
+in APPPATH\Controllers\Dashboard.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-02 21:47:11 --> mysqli_sql_exception: Unknown column 'nombreIndicadororderBy' in 'field list' in C:\laragon\www\Solutoria\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\Solutoria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `nombreI...', 0)
+#1 C:\laragon\www\Solutoria\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nombreI...')
+#2 C:\laragon\www\Solutoria\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nombreI...')
+#3 C:\laragon\www\Solutoria\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `nombreI...', Array, false)
+#4 C:\laragon\www\Solutoria\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Solutoria\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Solutoria\app\Controllers\Dashboard.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Solutoria\system\CodeIgniter.php(927): App\Controllers\Dashboard->index()
+#8 C:\laragon\www\Solutoria\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\laragon\www\Solutoria\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Solutoria\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Solutoria\system\Commands\Server\rewrite.php(46): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2022-11-02 21:47:11 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 224.
+ 1 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\Dashboard.php(16): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-02 21:48:28 --> mysqli_sql_exception: Unknown column 'nombreIndicadororderBy' in 'field list' in C:\laragon\www\Solutoria\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\Solutoria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `nombreI...', 0)
+#1 C:\laragon\www\Solutoria\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nombreI...')
+#2 C:\laragon\www\Solutoria\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nombreI...')
+#3 C:\laragon\www\Solutoria\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `nombreI...', Array, false)
+#4 C:\laragon\www\Solutoria\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Solutoria\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Solutoria\app\Controllers\Dashboard.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Solutoria\system\CodeIgniter.php(927): App\Controllers\Dashboard->index()
+#8 C:\laragon\www\Solutoria\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\laragon\www\Solutoria\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Solutoria\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Solutoria\system\Commands\Server\rewrite.php(46): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2022-11-02 21:48:28 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 224.
+ 1 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\Dashboard.php(16): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
