@@ -53,7 +53,7 @@
                                 <label for="valor">Ingresar valor nuevo</label>
                                 <input type="number" id="valor_nuevo" name="valor_nuevo" step=".01" class="form-control" required />
                             </div>
-                            <button class="btn btn-primary mx-auto d-block" id="actualizar_registro">Ingresar registro</button>
+                            <button class="btn btn-primary mx-auto d-block" id="actualizar_registro">Actualizar registro</button>
                         </form>
                     </div>
                 </div>
